@@ -1,0 +1,97 @@
+body{
+  background-color: #333;
+}
+
+.ft {
+  background-color: #232323;
+  color:yellow;
+  height: 250px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+#husky{
+  height: 200px;
+  width: 200px;
+  background-color:#232323;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+
+.ft {
+  background-color: #232323;
+  color: yellow;
+  height: 250px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;}
+
+#husky {
+  height: 200px;
+  width: 200px;
+  background-color: #232323;
+}
+#one{
+  background-color:rgba(0, 0, 0, 0.852);
+}
+.navbar-img{
+  max-width: 100px;
+  height: auto;
+}
+#tt{
+  color:yellow;
+font-size: 30px;
+  font-family: sans-serif;
+  margin: 2px;
+  padding: 7px;
+}
+#tt:hover{
+  transition: 0.7s ease-in;
+  text-decoration-color: white;
+  text-decoration-line: underline;
+  text-decoration-thickness: 4px;
+}
+.purchase-container {
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color to contrast against dark background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px 2px rgba(156, 156, 5, 0.7); /* Soft shadow effect */
+    margin-top: 100px; /* Top margin to space it from previous content */
+    opacity: 1;
+  }
+
+.inner-image {
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(156, 156, 5, 0.6);
+}
+
+.game-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.game-description {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 15px;
+  color: rgb(156, 156, 5);
+}
+
